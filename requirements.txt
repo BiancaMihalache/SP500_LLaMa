@@ -1,0 +1,32 @@
+# Core data + numerics
+pandas
+numpy
+scipy
+
+# Market data
+yfinance
+
+# Time-series models
+statsmodels
+arch
+pmdarima
+
+# LLM stack (Llama-3.1-8B-Instruct, 8-bit)
+torch
+transformers
+accelerate
+huggingface_hub
+bitsandbytes>=0.46.1
+
+# Google Trends via SerpAPI (only needed to RE-FETCH; the cached CSV avoids it)
+requests
+google-search-results
+
+# Plotting + utils
+matplotlib
+seaborn
+scikit-learn
+tqdm
+
+# Parquet output (predictions are written to .parquet)
+pyarrow
